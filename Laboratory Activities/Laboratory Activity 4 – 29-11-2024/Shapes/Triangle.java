@@ -8,7 +8,7 @@ public class Triangle implements Shape{
         this.c = c;
     }
     public double getArea(){
-        double s = (a + b + c)/2;
+        double s = getPerimeter()/2;
         return Math.sqrt(s*(s-a)*(s-b)*(s-c) );
     }
 
